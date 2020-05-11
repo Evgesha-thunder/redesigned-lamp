@@ -1,0 +1,26 @@
+@font-face {
+  font-family: SocialIco;
+  src: url("../fonts/Socialico.ttf");
+}
+
+@darkColor: #445161;
+@lightColor: #fff;
+@sectionLightBackColor: #f5f5f5;
+
+.sectionStylesMixin() {
+  padding: 50px;
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+
+.sectionHeaderStylesMixin() {
+  color: @darkColor;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 30px;
+}
